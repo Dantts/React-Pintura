@@ -1,0 +1,53 @@
+{
+  "private": true,
+  "name": "pintura-example-react",
+  "version": "0.0.0",
+  "author": "Rik Schennink at PQINA",
+  "license": "https://pqina.nl/pintura/license/",
+  "homepage": "https://pqina.nl/",
+  "description": "A Pintura React example Project",
+  "dependencies": {
+    "@pqina/filepond-plugin-image-editor": "^9.x",
+    "@pqina/pintura": "^8.x",
+    "@pqina/react-pintura": "^9.x",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.5.0",
+    "filepond": "^4.x",
+    "filepond-plugin-file-poster": "^2.x",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-filepond": "^7.1.2",
+    "react-router": "^6.11.1",
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
